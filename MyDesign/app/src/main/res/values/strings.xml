@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Women\'s Beauty Parlour</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Favourite</string>
+
+    <string name="nav_drawer_recently_added">Recently Added</string>
+    <string name="toast_saved">Wallpaper saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpaper updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+    <string name="splash_error">Unable to download wallpapers. Verify your google\'s user name in settings or device doesn\'t have internet connection!</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="msg_unknown_error">Sorry! Unknown error occurred.</string>
+    <string name="msg_wall_fetch_error">Sorry! Unable to fetch wallpaper(s). Verify app settings or device doesn\'t have internet connection.</string>
+    <string name="toast_enter_google_username">Please enter google username</string>
+    <string name="toast_enter_valid_grid_columns">Please enter valid number of columns</string>
+    <string name="toast_enter_gallery_name">Please enter gallery directory name</string>
+    <string name="lbl_google_username">Google username</string>
+    <string name="lbl_no_grid_columns">Number of grid columns</string>
+    <string name="lbl_gallery_name">Gallery directory name</string>
+    <string name="lbl_btn_save">Save</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8429059842063292/5430299367</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8429059842063292/6907032560</string>
+
+    <!--Airpush Add key-->
+    <string name="appId">322515</string>
+    <string name="APIKey">1433671614228234661</string>
+
+
+    <array name="album_list">
+        <item>Alluring Body Tattoo</item>
+        <item>Hand Mehndi</item>
+        <item>Leg Mehndi</item>
+        <item>Teej Special</item>
+        <item>Anniversary Special</item>
+        <item>Kadawa Chauth Special</item>
+        <item>Wedding Mehndi</item>
+        <item>Vintage Jewellery</item>
+        <item>Dulhan Special</item>
+        <item>Ethical Dress</item>
+        <item>Elegant Eye-Bro</item>
+        <item>Ingenious Nails</item>
+        <item>Seductive Lips</item>
+        <item>Imaginative Hair</item>
+        <item>Innovative Rangoli</item>
+    </array>
+
+
+    <integer-array name="album_img">
+        <item>@drawable/tattoo1_small</item>
+        <item>@drawable/hand_small</item>
+        <item>@drawable/leg_small</item>
+        <item>@drawable/teej_small</item>
+        <item>@drawable/anniversary_small</item>
+        <item>@drawable/kadawa_small</item>
+        <item>@drawable/wedding_small</item>
+        <item>@drawable/jewel_small</item>
+        <item>@drawable/dulhan_small</item>
+        <item>@drawable/fancy_dress_small</item>
+        <item>@drawable/eye_bro_small</item>
+        <item>@drawable/nail_small</item>
+        <item>@drawable/lips_small</item>
+        <item>@drawable/hair_small</item>
+        <item>@drawable/rangoli_small</item>
+    </integer-array>
+    <string name="title_activity_full">FullActivity</string>
+</resources>

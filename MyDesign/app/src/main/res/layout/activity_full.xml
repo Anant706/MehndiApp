@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center_vertical|center_horizontal">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/myAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.mydesign.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/myAdView" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_overlay">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            fab:fab_addButtonColorNormal="@color/accent"
+            fab:fab_addButtonColorPressed="@color/accent_dark"
+            fab:fab_addButtonPlusIconColor="@color/white"
+            fab:fab_addButtonStrokeVisible="false"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            fab:fab_labelsPosition="left">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@android:drawable/stat_sys_download"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Download Image" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_crop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@drawable/crop"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Crop Image" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@drawable/share"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Share Image" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </FrameLayout>
+</RelativeLayout>

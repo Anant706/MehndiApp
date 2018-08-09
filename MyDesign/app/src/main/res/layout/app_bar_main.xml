@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinatorLayout"
+    tools:context=".M">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_overlay">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fab_menu"
+            fab:fab_addButtonColorNormal="@color/accent"
+            fab:fab_addButtonColorPressed="@color/accent_dark"
+            fab:fab_addButtonPlusIconColor="@color/white"
+            fab:fab_addButtonStrokeVisible="false"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            fab:fab_labelsPosition="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_star"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@drawable/star"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Rate Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_share"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@drawable/share"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Share It"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_feedback"
+                fab:backgroundTint="@android:color/white"
+                fab:fab_colorNormal="@color/accent"
+                fab:fab_colorPressed="@color/accent_dark"
+                fab:fab_icon="@drawable/feedback"
+                fab:fab_plusIconColor="@color/white"
+                fab:fab_size="mini"
+                fab:fab_title="Send Feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
