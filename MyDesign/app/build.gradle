@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.mydesign.digital"
+        applicationId "______________"
         minSdkVersion 15
         versionCode 1
         versionName "1"
