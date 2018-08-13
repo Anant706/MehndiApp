@@ -34,49 +34,18 @@
             android:name=".FSVA"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".GF"
-            android:parentActivityName=".M"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/action_settings"
-            android:screenOrientation="portrait" />
-        <activity android:name=".ViewImageSnapShot" />
-        <activity
-            android:name=".FragmentSettings"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FavouriteGrid"
-            android:parentActivityName=".M"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FullActivity"
-            android:label="@string/title_activity_full"
-            android:parentActivityName=".M"
-            android:theme="@style/AppTheme" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:theme="@android:style/Theme.Translucent" />
-
-
-        <activity
-            android:name="com.ufsxvuiiow.spiuuvjifr228234.AdActivity"
-            android:configChanges="orientation|screenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
-
-        <activity
-            android:name="com.ufsxvuiiow.spiuuvjifr228234.BrowserActivity"
-            android:configChanges="orientation|screenSize" />
-
+      ....
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        
+        .
+        .
+        .
     </application>
 
 </manifest>
