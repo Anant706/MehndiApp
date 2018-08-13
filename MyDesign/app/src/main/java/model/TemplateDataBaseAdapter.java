@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TemplateDataBaseAdapter {
-	static final String DATABASE_NAME = "myDatabase.db";
+	static final String DATABASE_NAME = "-------------";
 
 	static final int DATABASE_VERSION = 1;
 
